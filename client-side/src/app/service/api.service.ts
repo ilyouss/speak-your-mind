@@ -8,7 +8,7 @@ import { PostDTO } from '../model/postDTO';
 })
 export class ApiService {
   private baseUrl =
-    'https://speak-your-mind-6f4fafac0024.herokuapp.com/api/v1/post';
+    'http://localhost:8080/api/v1/post';
 
   constructor(private http: HttpClient) {}
 
